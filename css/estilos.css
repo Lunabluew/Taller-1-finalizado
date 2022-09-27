@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.nav-wrapper{
+  background-color: #E8A448;
+}
+
+body{
+  background-color: #EBCD94;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 450px;
+  color: transparent;
+  width: 100%;
+  background-image: url(https://i.blogs.es/435a43/7_navegando/450_1000.gif);
+  background-position: center;
+  -webkit-background-clip: text;
+}
+
+.abajo{
+  text-align: center;
+  color: rgb(65, 66, 70);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.respuesta{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.correcto{
+color: green;
+visibility: visible;
+opacity: 1;
+}
+
+.incorrecto{
+  color: red;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+#form button{
+  padding: 10px;
+  text-align: center;
+}
